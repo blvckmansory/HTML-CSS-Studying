@@ -1,0 +1,112 @@
+body {
+    padding: 50px;
+}
+
+.block {
+    border: 5px solid lightskyblue;
+    max-width: 800px;
+    margin: 0px auto;
+    height: 1000px;
+    position: relative;
+}
+
+
+.block div {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;    
+}
+.block_1 {
+    background-color: cornflowerblue;
+    position: sticky;
+    top: 0;   
+}
+
+.block_2 {
+    background-color: cyan;
+}
+
+.block_3 {
+    background-color: darkcyan;
+    position: relative;
+    z-index: 0;
+}
+
+.block_4 {
+    background-color: darkseagreen;
+}
+
+.block_5 {
+    background-color: darkslategrey;
+}
+
+.block_6 {
+    background-color: darkolivegreen;
+    width: 50%;
+    position: absolute;
+}
+
+.block_7 {
+    background-color: darkgray;
+    width: 50%;
+    position: relative;
+    left: 50%;
+}
+
+
+.text {
+    margin: 100px 0px 0px 0px;
+}
+.container {
+    width: 700px;
+    height: 700px;
+    border: 3px solid red;
+    position: relative;
+}
+
+.button1 {
+    position: absolute;
+    left: calc(50% - 35px);
+    top: calc(50% - 8px);
+}
+
+.button2 {
+    margin: calc(50% - 8px) calc(50% - 35px);
+    white-space: nowrap;
+}
+
+
+.button3 {
+    transform: translate(calc(350px - 35px), calc(350px - 8px));
+}
+
+.container_flex {
+    width: 700px;
+    height: 700px;
+    border: 3px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_grid {
+    width: 700px;
+    height: 700px;
+    border: 3px solid red;
+    display: grid;
+    align-content: center;
+    justify-content: center;    
+}
+
+.container_text {
+    width: 700px;
+    height: 700px;
+    border: 3px solid red;
+    text-align: center;
+    line-height: 700px;
+}
+
+.button6 {
+    vertical-align: middle;
+}
